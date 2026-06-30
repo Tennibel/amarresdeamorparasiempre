@@ -1,0 +1,12 @@
+{
+  "name": "amarres-sitio-usa",
+  "version": "1.0.0",
+  "description": "Sitio web de amarres de amor - USA",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 8080 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

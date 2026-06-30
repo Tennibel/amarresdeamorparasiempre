@@ -9,6 +9,7 @@ jobs:
   web-deploy:
     name: 🎉 Deploy to cPanel
     runs-on: ubuntu-latest
+    environment: production
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4

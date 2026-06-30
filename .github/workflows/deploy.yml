@@ -20,4 +20,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: public_html/ # Ajusta esto si tu sitio está en una subcarpeta, por ejemplo: public_html/subcarpeta/
+        server-dir: ./
